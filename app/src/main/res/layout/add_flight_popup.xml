@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/originEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#777777"
+            android:hint="Origin"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/destinationEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/originEditText"
+            android:hint="Destination"
+            android:inputType="textCapWords"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:id="@+id/timeEditText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/destinationEditText"
+            android:backgroundTint="#777777"
+            android:focusable="false"
+            android:hint="Time"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/destinationEditText"
+            android:layout_toRightOf="@+id/timeEditText"
+            android:hint="Date"
+            android:paddingTop="10dp"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/flightNoEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeEditText"
+            android:hint="Flight Number"
+            android:imeOptions="actionNext"
+            android:inputType="textCapCharacters"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:id="@+id/referenceEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flightNoEditText"
+            android:hint="Reference (Optional)"
+            android:inputType="textCapCharacters"
+            android:paddingTop="10dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

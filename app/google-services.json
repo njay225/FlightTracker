@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "75429747817",
+    "firebase_url": "https://flighttracker-f0b79.firebaseio.com",
+    "project_id": "flighttracker-f0b79",
+    "storage_bucket": "flighttracker-f0b79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75429747817:android:83b374bd47613272",
+        "android_client_info": {
+          "package_name": "com.min.nisal.FlightTracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75429747817-dc9ff6aaphhsvaemh42d1rgfn8bekamd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.min.nisal.FlightTracker",
+            "certificate_hash": "4edf667cd825d4340bc7ed7df0cc2ad83e76e337"
+          }
+        },
+        {
+          "client_id": "75429747817-je8fo3j9f28lk7qsmeutk0grtdfodl68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-WBTpyN0Slsqd3a98gFbn09qiypQ0eGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75429747817-je8fo3j9f28lk7qsmeutk0grtdfodl68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

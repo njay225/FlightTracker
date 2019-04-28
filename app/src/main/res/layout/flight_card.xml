@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/flightImageView"
+            android:layout_width="match_parent"
+            android:layout_height="202sp"
+            android:paddingBottom="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="202sp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Title ----> Title"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timeAndDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleTextView"
+                android:paddingBottom="10dp"
+                android:text="Time and Date"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/flightNoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/statusTextView"
+                android:layout_below="@+id/titleTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="0dp"
+                android:paddingBottom="10dp"
+                android:text="Flight No"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/referenceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeAndDateTextView"
+                android:paddingBottom="10dp"
+                android:text="Reference: " />
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeAndDateTextView"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"
+                android:text="Scheduled" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
